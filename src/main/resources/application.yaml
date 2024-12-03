@@ -1,0 +1,18 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: multithreading
+#  task:
+#    scheduling:
+#      pool:
+#        size: 2
+  threads:
+    virtual:
+      enabled: true
+
+logging:
+  level:
+    com.dm4nk: DEBUG
+
